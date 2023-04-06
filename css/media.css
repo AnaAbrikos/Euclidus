@@ -1,0 +1,312 @@
+@media (max-width: 1300px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__navigation {
+    flex-basis: auto;
+  }
+
+  .header__logo {
+    margin-right: 0px;
+  }
+
+  .burger {
+    display: inline;
+    position: relative;
+    width: 30px;
+    height: 23px;
+  }
+
+  .burger__line {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    right: 50%;
+    top: 10px;
+  }
+
+  .burger__line:nth-child(1) {
+    top: 0px;
+  }
+
+  .burger__line:nth-child(3) {
+    top: 20px;
+  }
+
+  .intro__container {
+    padding: 160px 70px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards__left {
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+
+  .cards__right {
+    margin-left: 0;
+  }
+
+  .card1__shadow {
+    padding: 35px;
+  }
+
+  .card1 {
+    min-height: 640px;
+    max-width: 100%;
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .footer__section3 {
+    display: none;
+  }
+
+  .footer__container {
+    padding: 50px;
+  }
+
+  .section2 {
+    margin-right: 0;
+  }
+
+  .plus-icon {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .intro__container {
+    padding: 160px 40px;
+  }
+
+  .card1__shadow {
+    padding: 25px;
+  }
+
+  .about-us__descr,
+  .card__descr,
+  .stages__card-descr,
+  .stages__card-descr2 {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .accordion__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .section-title {
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  .card1__descr {
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .stages__block {
+    flex-direction: column-reverse;
+  }
+
+  .section1__list {
+    display: none;
+  }
+
+  .footer__sections {
+    flex-direction: column-reverse;
+  }
+
+  .section2 {
+    flex-basis: 540px;
+    margin-bottom: 16px;
+  }
+
+  .section1 {
+    border-top: 1px solid #414141;
+    min-width: 100%;
+    padding-top: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer__sections {
+    align-items: flex-start;
+  }
+
+  .plus-icon {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header-container {
+    padding: 17px 20px 17px 35px;
+  }
+
+  .intro__container {
+    padding: 60px 21px;
+  }
+
+  .intro__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    min-height: 70px;
+  }
+
+  .intro__descr {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section-title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 29px;
+  }
+
+  .about-us__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .card1__descr {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+
+  .card1__btn {
+    color: var(--basic-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 44px;
+    width: 162px;
+    height: 40px;
+  }
+
+  .card1__content {
+    display: block;
+  }
+
+  .card1__shadow {
+    background: none;
+    padding: 0;
+  }
+
+  .card1 {
+    min-height: 400px;
+    min-width: 290px;
+  }
+
+  .card2,
+  .card3 {
+    border: none;
+    display: block;
+    padding: 0;
+  }
+
+  .card svg {
+    max-width: 100px;
+    max-height: 90px;
+  }
+
+  .section-offset {
+    margin-bottom: 60px;
+  }
+
+  .accordion__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    margin-right: 10px;
+  }
+
+  .plus-icon {
+    max-width: 35px;
+    max-height: 35px;
+    flex-shrink: 0;
+  }
+
+  .footer__title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 40px;
+  }
+
+  .footer__sections {
+    align-items: center;
+  }
+
+.footer__btn {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+  .section2 {
+    flex-basis: 500px;
+    margin-bottom: 16px;
+  }
+
+  .stages__steps-btn {
+    color: black;
+  }
+
+  .stages__steps-list {
+    justify-content: space-between;
+  }
+
+  .stages__steps-item:not(:last-child) {
+    margin: 0;
+  }
+
+  .card1 {
+    display: block;
+    background-image: none;
+    border: none;
+  }
+
+  .card1:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/Rectangle\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+  }
+}
